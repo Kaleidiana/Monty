@@ -12,7 +12,6 @@ void f_queue(stack_t **head, unsigned int counter)
 	(void)head;
 	(void)counter;
 	bus.lifi = 1;
-
 }
 
 /**
@@ -50,4 +49,3 @@ void addqueue(stack_t **head, int n)
 		new_node->prev = temp;
 	}
 }
-		
